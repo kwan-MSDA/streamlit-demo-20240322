@@ -2,7 +2,11 @@
 
 This repository contains the source code of the demo session and the presentation slides for 2023/2024 Spring semester HUMA5630's Unit 8 class on 22 March 2024.
 
-![preview screenshot]()
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hkust-dh-demo-20240322.streamlit.app/) 
+
+URL: https://hkust-dh-demo-20240322.streamlit.app/
+
+![streamlit demo app preview](demo-streamlit-preivew.gif)
 
 ## Guideline of Accounts creation and Installation before class
 
@@ -12,16 +16,9 @@ This repository contains the source code of the demo session and the presentatio
 
 ## Presentation slides in class
 
-[Slides in PDF]() | [Slides in Canva](https://www.canva.com/design/DAF9OL_Atz4/D9bUHJ-Xi7lzw2An-HFMVg/view)
+[Slides in PDF](https://github.com/hkust-dh/streamlit-demo-20240322/blob/main/DH%20March%2022_tutorial.pdf) | [Slides in Canva](https://www.canva.com/design/DAF9OL_Atz4/D9bUHJ-Xi7lzw2An-HFMVg/view)
 
 [![Canva URL on Presentation slides in class](canva-preview2.jpg)](https://www.canva.com/design/DAF9OL_Atz4/D9bUHJ-Xi7lzw2An-HFMVg/view)
-
-
-
-## Online demo of the Streamlit app
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hkust-dh-demo-20240322.streamlit.app/) URL: https://hkust-dh-demo-20240322.streamlit.app/
-
 
 
 ## Related articles (optional readings)
