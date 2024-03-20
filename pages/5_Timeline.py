@@ -2,7 +2,6 @@
 # import python libraries
 ###############################################################
 import streamlit as st
-from streamlit_timeline import st_timeline #pip install streamlit-vis-timeline
 import streamlit.components.v1 as components
 
 ###############################################################
@@ -17,43 +16,12 @@ st.set_page_config(
 )
 
 ###############################################################
-# Timeline 1
-# https://discuss.streamlit.io/t/new-component-streamlit-timeline-creating-beautiful-timelines-with-bi-directional-communication/31804
-###############################################################
-
-'''
-# Timeline (Method 1)
-Info from: https://registry.hkust.edu.hk/calendar_dates/dates23-24confirmed.pdf
-'''
-
-items = [
-    {"id": 1, "content": "Spring Term commences", "start": "2024-01-31"},
-    {"id": 2, "content": "Lasy day of Spring Term classes", "start": "2024-05-10"},
-    {"id": 3, "content": "Last day of Spring Term", "start": "2024-05-29"},
-]
-
-timeline = st_timeline(items, groups=[], options={}, height="300px")
-
-st.code("""
-import streamlit as st
-from streamlit_timeline import st_timeline #pip install streamlit-vis-timeline
-        
-items = [
-    {"id": 1, "content": "Spring Term commences", "start": "2024-01-31"},
-    {"id": 2, "content": "Lasy day of Spring Term classes", "start": "2024-05-10"},
-    {"id": 3, "content": "Last day of Spring Term", "start": "2024-05-29"},
-]
-
-timeline = st_timeline(items, groups=[], options={}, height="300px")      
-""")
-
-###############################################################
-# Timeline 2
+# Timeline 
 # https://timeline.knightlab.com/
 ###############################################################
 '''
 ---
-# Timeline (Method 2)
+# Timeline
 '''
 
 components.html("""
@@ -66,7 +34,7 @@ components.html("""
 
 
 ###############################################################
-# guide for Timeline 2
+# guide for Timeline
 ###############################################################
 '''
 ## Detailed instructions from the official site
