@@ -132,6 +132,6 @@ st.markdown("#")
 ###############################################################
 components.html("""
 <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
-src="https://www.canva.com/design/DAF9OL_Atz4/oFSRCl8fZQuV4z65LYMNWA/view?embed#20" allowfullscreen="allowfullscreen" allow="fullscreen">
+src="https://www.canva.com/design/DAF9OL_Atz4/oFSRCl8fZQuV4z65LYMNWA/view?embed#21" allowfullscreen="allowfullscreen" allow="fullscreen">
 </iframe>
 """, height = 800)
