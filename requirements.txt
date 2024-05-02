@@ -6,6 +6,8 @@ requests==2.31.0
 streamlit==1.31.1
 st-annotated-text==4.0.1
 streamlit-image-comparison==0.0.4
+streamlit-folium
+folium
 openpyxl
 numpy
 rasterio
